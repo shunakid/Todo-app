@@ -1,8 +1,11 @@
+import { Button } from "@chakra-ui/react";
 import React from "react";
 
-type LoginButtonProps = {};
-
-const LoginButton: React.FC<LoginButtonProps> = () => {
-  return <div>Have a good coding</div>;
+const LoginButton: React.FC = () => {
+  return (
+    <>
+      <Button variant="outline">Log in</Button>
+    </>
+  );
 };
 export default LoginButton;

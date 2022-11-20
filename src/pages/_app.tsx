@@ -5,10 +5,10 @@ import { theme } from "../chakra/theme";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <Layout>
-      <ChakraProvider theme={theme}>
+    <ChakraProvider theme={theme}>
+      <Layout>
         <Component {...pageProps} />
-      </ChakraProvider>
-    </Layout>
+      </Layout>
+    </ChakraProvider>
   );
 }

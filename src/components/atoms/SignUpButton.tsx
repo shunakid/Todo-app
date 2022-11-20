@@ -1,8 +1,11 @@
+import { Button } from "@chakra-ui/react";
 import React from "react";
 
-type SignupButtonProps = {};
-
-const SignupButton: React.FC<SignupButtonProps> = () => {
-  return <div>Have a good coding</div>;
+const SignupButton: React.FC = () => {
+  return (
+    <>
+      <Button>Sign up</Button>
+    </>
+  );
 };
 export default SignupButton;
